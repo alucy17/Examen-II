@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Trip</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+	
+</head>
+
+<body class="color-theme-orange">
+	
+	<section id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		
+		<section class="panel panel-left panel-cover">
+			
+			<div class="block">
+				<div class="row">
+					<article class="col-30">
+						<img src="img/Untitled design.png" class="img-fluid" alt="user">
+					</article>
+					<article class="col-70 perfil">
+						<h3>Alejandra Lucia</h3>
+						<p>My Trip</p>
+					</article>					
+				</div>				
+			</div>
+			
+			<div class="block">
+				
+				<div class="list media-list">
+					<ul>
+						<li>
+							<a href="/home/" class="item-content item-link panel-close">
+								<div class="item-media">
+									<i class="material-icons">
+										home
+									</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">
+										Inicio
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/destinos/" class="item-content item-link panel-close">
+								<div class="item-media">
+									<i class="material-icons">
+										airplanemode_active
+									</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">
+										Destinos
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/promociones/" class="item-content item-link">
+								<div class="item-media">
+									<i class="material-icons">
+										business_center
+									</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">
+										Promociones
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/sobre/" class="item-content item-link">
+								<div class="item-media">
+									<i class="material-icons">
+										touch_app
+									</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">
+										Sobre la Aplicación
+									</div>
+								</div>
+							</a>
+						</li>
+						
+						
+					</ul>
+					
+				</div>
+			</div>
+			
+		</section>
+		
+
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+			  <div class="left">
+				  <a class="link panel-open" data-panel="left">
+					  <i class="material-icons">
+						menu
+						</i>
+				  </a>
+			  </div>
+              
+			  <div class="title">My Trip App</div>
+			  
+			  <div class="right">
+				<a href="#" class="link popover-open" data-popover=".popup-menu">
+					<i class="material-icons">more_vert</i>
+				</a>
+			  </div>
+				
+            </div>
+          </nav>
+          
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+           
+			 <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+			  <div class="swiper-pagination"></div>
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide">
+
+		<article class="hero">
+				  <img src="img/menu principal 1.jpg" class="img-fluid" alt="view">
+			  		<div class="hero-info">
+						<h3>My Trip</h3>
+						<p>El clima tan particular de la zona del Caribe hace que su fauna también sea única con sus destacados colores</p>
+				  	</div>
+	 	</article>
+	  
+	  </div>
+    <div class="swiper-slide">
+		
+	  		 <article class="hero">
+				  <img src="img/menu principal 4.jpg" class="img-fluid" alt="view">
+			  		<div class="hero-info">
+						<h3>My Trip</h3>
+						<p>¿donde disfrutar de unas merecidas vacaciones? Es momento de dar una vuelta por El Caribe</p>
+				  	</div>
+	 		</article>
+		
+	 
+	</div>
+    <div class="swiper-slide">
+	  
+		 <article class="hero">
+				  <img src="img/menu principal 3.jpg" class="img-fluid" alt="view">
+			  		<div class="hero-info">
+						<h3>My Trip</h3>
+						<p>La mejores atracciones turísticas en El Caribe: Punta Cana, Jamaica, Bahamas, La habana, Cancún...</p>
+				  	</div>
+	 		</article>
+		
+		
+	</div>
+  </div>
+</div>
+			  
+		
+			  
+			  
+			  <div class="block">
+				   <div class="row">
+							<article class="card product col">
+
+							<div class="card-header">
+							  <i class="material-icons">
+										business_center
+									</i>
+							  </div>  
+
+							 <div class="card-content card-content-padding">
+							 <h3>Promociones</h3> 
+							
+							 </div>
+
+
+							</article>
+					   
+					   		
+					   <article class="card product col">
+
+							<div class="card-header">
+							   <i class="material-icons">
+									room	
+									</i>
+							  </div>  
+
+							 <div class="card-content card-content-padding">
+							 <h3>Principales Destinos</h3> 
+							
+							 </div>
+
+
+							</article>
+				   
+				   </div>
+			  </div>
+			  
+			  <div class="block">
+				   <div class="row">
+							<article class="card product col">
+
+							<div class="card-header">
+							  <i class="material-icons">
+										hotel
+									</i>
+							  </div>  
+
+							 <div class="card-content card-content-padding">
+							 <h3>Hoteles</h3> 
+								
+							 </div>
+
+
+							</article>
+					   
+					   		
+					   <article class="card product col">
+
+							<div class="card-header">
+							   <i class="material-icons">
+										airplanemode_active
+									</i>
+							  </div>  
+
+							 <div class="card-content card-content-padding">
+							 <h3>Vuelos</h3> 
+								
+							 </div>
+
+
+							</article>
+				   
+				   </div>
+			  </div>
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+
+			 
+			  
+			  	<div class="block">
+				  
+				  <a href="/destinos/" class="link">destinos</a>
+				 
+				</div>
+			 
+			  	<div class="block">
+				  
+				  <a href="/promociones/" class="link">promociones</a>
+				  
+				</div>
+			   	<div class="block">
+				  
+				  <a href="/sobre/" class="link">Sobre la aplicación</a>
+				 
+				</div>
+			    	<div class="block">
+				  
+				  <a href="/cotizaciones/" class="link">Cotizaciones</a>
+				 
+				</div>
+			  	
+			  	
+	
+			
+			  
+          </div>
+			
+        </section>
+		  
+		  
+      </div>
+    </section>
+	
+	
+	
+
+	
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>

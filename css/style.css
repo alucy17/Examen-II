@@ -1,0 +1,141 @@
+.img-fluid{
+	max-width: 100%;
+}
+
+.item-content .material-icons{
+	color: rgba(239,142,3,1.00) !important;
+}
+
+.page-content .p-sobre{
+	align-content: center;
+	text-align: center;
+}
+
+.img-fluid .sobre-usuario{
+	text-align: center;
+	align-content: center;
+}
+ .page-content .img-fluid{
+	align-content: center;
+	text-align: center;
+}
+.page-content h3 .block-title-sobre{
+	text-align: center;
+	align-content: center;
+}
+
+.list.media-list.img-fluid{
+	align-content: center;
+	margin-top: 5px!important;
+}
+
+
+.sobre p{
+text-align: center;
+}
+.sobre h2{
+	text-align: center;
+}
+
+.hero{
+	position: relative;
+}
+
+.hero-info{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	margin: 10% 10px;
+	padding: 20px 10px;
+	color: #fff;
+	background-color:rgba(0,143,247,0.49);
+	text-align: center;
+}
+
+
+.product .card-header i{
+	padding-left: 70px;
+}
+.product.card{
+	margin: 0;
+	color: rgba(239,142,3,1.00);
+	align-content: center;
+}
+.product h3{
+	font-size: 15px;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+.imagen-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+.imagen-info h3{
+	align-content: center;
+	text-align: center;
+}
+
+.imagen-info p{
+	align-content: center;
+	text-align: center;
+}
+
+.imagen-info a{
+	align-content: center;
+	text-align: center;
+}
+
+
+
+.perfil h3,
+.perfil p{
+	margin: 0;
+}
+.perfil h3{
+	font-size: 16px;
+	color: #333;
+}
+.perfil p{
+	font-size: 12px;
+	color: #666;
+}
+.panel .list i{
+	color: #474B5E;
+	font-size: 20px !important;
+}
+.panel .list .item-title{
+	font-size: 14px;
+}
+
+.p0{
+	padding: 0 !important;
+}
+.m0{
+	margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
